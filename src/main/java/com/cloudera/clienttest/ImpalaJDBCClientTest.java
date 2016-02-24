@@ -83,7 +83,7 @@ public class ImpalaJDBCClientTest {
             principal = args[1];
         }
         else {
-            System.err.println("Usage: " + ImpalaJDBCClientTest.class.getSimpleName() + " <host> <user> [secure (true|false)]");
+            System.err.println("Usage: " + ImpalaJDBCClientTest.class.getSimpleName() + " <host> <impaladprinc> [secure (true|false)]");
             System.exit(1);
         }
         if (args.length > 2) {
